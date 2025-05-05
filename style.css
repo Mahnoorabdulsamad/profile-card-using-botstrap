@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(135deg,  #d16bbb,#91fdc2, #ff6e7f);
+    font-family: sans-serif;
+}
+.custom-card{
+    max-width: 320px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+.custom-card:hover{
+    transform: scale(1.05);
+    /* background: linear-gradient(135deg, #d16bbb, #91fdc2); */
+}
+.custom-card h3{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+.custom-card p{
+    font-size: 16px;
+    color: #32423f;
+    margin: 10px 0;
+}
+.custom-card .btn{
+    background-color: #ff6e7f;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
